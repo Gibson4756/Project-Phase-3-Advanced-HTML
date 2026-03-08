@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gibson Projects - My Web Development Portfolio</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px; 
+            line-height: 1.6; 
+            background: linear-gradient(to bottom, #f0f4f8, #e8f4fd); 
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+        }
+        h1 { 
+            color: white; 
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #0056b3; 
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #28a745;
+            margin-top: 0;
+        }
+        article { 
+            margin-bottom: 40px; 
+            padding: 20px; 
+            border: 2px solid #007bff; 
+            border-radius: 12px; 
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        article:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.25);
+        }
+        aside { 
+            background: linear-gradient(to right, #f8f9fa, #e9ecef); 
+            padding: 15px; 
+            margin: 10px 0; 
+            border-left: 4px solid #28a745; 
+            border-radius: 0 8px 8px 0;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+        }
+        figure { 
+            text-align: center; 
+            margin: 10px 0; 
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        figcaption { 
+            font-style: italic; 
+            color: #6c757d; 
+            background-color: #f8f9fa;
+            padding: 5px;
+            border-radius: 4px;
+            margin-top: 5px;
+        }
+        video { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 5px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "▶";
+            color: #007bff;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Projects Portfolio</h1>
+        <p>Welcome to my showcase of web development projects. Each project highlights skills in HTML5, CSS3, and JavaScript.</p>
+    </header>
+
+    <main>
+        <!-- Project 1: E-Commerce Site -->
+        <article>
+            <h2>E-Commerce Website Redesign</h2>
+            <p>This project involved revamping an online store using responsive design and semantic HTML5. It improved user experience and accessibility.</p>
+            
+            <figure>
+                <img src="img1.jpg" width="300" height="200" alt="E-Commerce homepage showing product grid and navigation.">
+            </figure>
+            
+            <aside>
+                <h3>Key Technologies</h3>
+                <ul>
+                    <li>HTML5 semantic elements</li>
+                    <li>CSS Grid and Flexbox</li>
+                    <li>JavaScript for dynamic cart</li>
+                </ul>
+                <p>Live demo: <a href="#">View Site</a></p>
+            </aside>
+            
+            <p>Challenges overcome: Ensuring mobile responsiveness and integrating payment APIs.</p>
+        </article>
+
+        <!-- Project 2: Interactive Dashboard -->
+        <article>
+            <h2>Interactive Data Dashboard</h2>
+            <p>A real-time analytics dashboard for business metrics, built with HTML5 Canvas for visualizations and video embeds for tutorials.</p>
+            
+            <figure>
+                <video controls width="600" poster="https://via.placeholder.com/600x300?text=Dashboard+Preview">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support the video tag. <a href="https://www.w3schools.com/html/mov_bbb.mp4">Download the video</a>.
+                </video>
+                <figcaption>Demo video of the dashboard in action (using a sample MP4 from W3Schools for illustration).</figcaption>
+            </figure>
+            
+            <aside>
+                <h3>Skills Demonstrated</h3>
+                <ul>
+                    <li>HTML5 &lt;video&gt; and &lt;canvas&gt; elements</li>
+                    <li>D3.js for charts</li>
+                    <li>API integration for live data</li>
+                </ul>
+                <p>GitHub repo: <a href="#">View Code</a></p>
+            </aside>
+            
+            <p>This project relates to my career in data-driven web apps, where I focused on performance optimization.</p>
+        </article>
+
+        <!-- Project 3: Blog Platform -->
+        <article>
+            <h2>Personal Blog Platform</h2>
+            <p>A custom blogging site with rich media support, using semantic markup to organize posts and side content.</p>
+            
+            <figure>
+                <img src="IMG_3354.webp" width="300" height="200" alt="Example blog post with embedded images and text.">
+                <figcaption>Sample blog layout with multimedia embeds.</figcaption>
+            </figure>
+            
+            <aside>
+                <h3>Features</h3>
+                <ul>
+                    <li>Semantic &lt;article&gt; for each post</li>
+                    <li>&lt;aside&gt; for related articles</li>
+                    <li>Image optimization with &lt;figure&gt;</li>
+                </ul>
+                <p>Deployed on: <a href="#">Netlify</a></p>
+            </aside>
+            
+            <p>Ties into my passion for content management systems and multimedia storytelling.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gibson's Portfolio. All projects showcase practical HTML5 applications.</p>
+    </footer>
+</body>
+</html>
